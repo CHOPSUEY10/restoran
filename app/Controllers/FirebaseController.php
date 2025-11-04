@@ -13,6 +13,7 @@ class FirebaseController extends Controller
             'authDomain'        => getenv('FIREBASE_AUTH_DOMAIN'),
             'projectId'         => getenv('FIREBASE_PROJECT_ID'),
             'storageBucket'     => getenv('FIREBASE_STORAGE_BUCKET'),
+            'databaseURL'       => getenv('FIREBASE_DATABASE_URL'),
             'messagingSenderId' => getenv('FIREBASE_MESSAGING_SENDER_ID'),
             'appId'             => getenv('FIREBASE_APP_ID'),
             'measurementId'     => getenv('FIREBASE_MEASUREMENT_ID'),
