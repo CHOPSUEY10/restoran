@@ -66,3 +66,24 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+
+# SETTING VIRTUAL HOST 
+
+-Masukkan konfigurasi ini ke file httpd-vhost.conf  
+
+<VirtualHost *:80>
+    ServerName ujikompetensisatu.edu
+    ServerAlias www.ujikompetensisatu.edu
+    DocumentRoot "${INSTALL_DIR}/www/ujikompetensisatu/public" 
+    <Directory "${INSTALL_DIR}/www/ujikompetensisatu/public">   
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+-Buka C:\Windows\System32\drivers\etc dengan command prompt (administrator)
+
+-Tambahkan 127.0.0.1 ujikompetensisatu.edu di bagian akhir file
