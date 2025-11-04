@@ -71,7 +71,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 # SETTING VIRTUAL HOST 
 
--Masukkan konfigurasi ini ke file httpd-vhost.conf  
+-Tambahkan konfigurasi ini ke file httpd-vhost.conf  
 
 
 
