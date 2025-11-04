@@ -10,7 +10,7 @@
     <h1>🍛 Restoran CodeIgniter 🔥 </h1>
 
     <div class="input-meja">
-      <label for="noMeja">Nomor Meja:</label>
+      <label for="noMeja">Nomor Meja</label>
       <input type="number" id="noMeja" placeholder="Masukkan nomor meja" min="1" required>
     </div>
 

@@ -18,6 +18,19 @@ h1 {
 
 .input-meja {
   margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input-meja label{
+  margin-block: 3%;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.input-meja input{
+  margin:auto;
 }
 
 input[type="number"] {
